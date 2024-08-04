@@ -31,3 +31,8 @@ func TestTextHash(t *testing.T) {
 		t.Fatalf("wrong hash: %x", hash)
 	}
 }
+
+func TestWalletTYpe(t *testing.T) {
+	t.Parallel()
+	wallet := Wallet.new()
+}
